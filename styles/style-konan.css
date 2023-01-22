@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "caveat";
+	src:url('../font/Caveat-Bold.ttf');
+}
+
+html,body{
+	font-family: caveat;
+	width: 100%;
+	background-color:#060536;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cabeçalho {
+	width: 100%;
+	padding:1%;
+	font-size: 2.3vw;
+	
+	text-align: center;
+	color: rgb(228, 29,58);
+	text-shadow: 1px 1px #4d3639;
+}
+
+.container-principal { width: 100%;
+
+	                   
+	                   
+	                   padding: 20px 0;
+	                   text-align: center;
+	                   background-color: rgb(183, 187, 214);
+	                   border: 2px dashed #200345;
+	                   border-radius: 6px;
+	                   }
+
+
+
+.container-principal > div { display: inline-block;
+	                         width:24%;
+                             
+	                         box-sizing: border-box;
+	               	         padding-top:35%;                             
+                             border-radius: 8px;
+                             background-position: center;
+	                         background-size: cover;
+	                         background-repeat: no-repeat;
+	                         }
+
+
+.konan1{ background-image:url('../img/konan/1.jpg');
+	     }
+
+.konan2{ background-image:url('../img/konan/2.jpg');
+	      }
+
+.konan3{ background-image:url('../img/konan/3.jpg');
+	      }
+
+.konan4{ background-image:url('../img/konan/4.jpg');
+	      }
+
+.konan5{ background-image:url('../img/konan/5.jpg');
+	     }
+
+.konan6{ background-image:url('../img/konan/6.jpg');
+	      }
+
+.konan7{ background-image:url('../img/konan/7.jpg');
+	      }
+
+.konan8{ background-image:url('../img/konan/8.jpg');
+	      }
+
+
+
+
+@media screen and (max-width: 990px){ .container-principal > div { width:48%; padding-top: 98%;} }
+@media screen and (max-width: 700px){ .container-principal > div { width:98%; padding-top: 98vh; margin-bottom:5px; } }

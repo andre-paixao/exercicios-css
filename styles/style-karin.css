@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "caveat";
+	src:url('../font/Caveat-Bold.ttf');
+}
+
+html,body{
+	font-family: caveat;
+	width: 100%;
+   background-color: rgb(182,1, 1);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cabeçalho {
+	width: 100%;
+	padding:1%;
+	font-size: 2.3vw;
+	
+	text-align: center;
+	color: black;
+	text-shadow: 1px 1px #8a0e22;
+}
+
+.container-principal { width: 100%;
+
+	                   
+	                   
+	                   padding: 20px 0;
+	                   text-align: center;
+	                   background-color: rgb(243, 64, 94);
+	                   
+	                   border: 2px dashed #200345;
+	                   border-radius: 6px;
+	                   }
+
+
+
+.container-principal > div { display: inline-block;
+	                         width:24%;
+                             
+	                         box-sizing: border-box;
+	               	         padding-top:35%;                             
+                             border-radius: 8px;
+                             background-position: center;
+	                         background-size: cover;
+	                         background-repeat: no-repeat;
+	                         }
+
+
+.karin1{ background-image:url('../img/karin/1.jpg');
+	     }
+
+.karin2{ background-image:url('../img/karin/2.jpg');
+	      }
+
+.karin3{ background-image:url('../img/karin/3.jpg');
+	      }
+
+.karin4{ background-image:url('../img/karin/4.jpg');
+	      }
+
+.karin5{ background-image:url('../img/karin/5.jpg');
+	     }
+
+.karin6{ background-image:url('../img/karin/6.jpg');
+	      }
+
+.karin7{ background-image:url('../img/karin/7.jpg');
+	      }
+
+.karin8{ background-image:url('../img/karin/8.jpg');
+	      }
+
+
+
+@media screen and (max-width: 990px){ .container-principal > div { width:48%; padding-top: 98%;} }
+@media screen and (max-width: 700px){ .container-principal > div { width:98%; padding-top: 98vh; margin-bottom:5px; } }

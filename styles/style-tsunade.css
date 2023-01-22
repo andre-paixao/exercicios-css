@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "caveat";
+	src:url('../font/Caveat-Bold.ttf');
+}
+
+html,body{
+	width: 100%;
+	font-family: caveat;
+	background-color: #192636;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cabeçalho {
+	width: 100%;
+	padding:1%;
+	font-size: 2.3vw;
+	text-align: center;
+	color: ghostwhite;
+	text-shadow: 2px 1px saddlebrown
+
+}
+
+
+.container-principal { width: 100%;
+	                   
+	                   
+	                   padding: 20px 0;
+	                   text-align: center;
+	                   background-color: rgb(37, 121, 123);
+	                   border: 2px dashed #b2b3a0;
+	                   border-radius: 6px;
+	                   }
+
+
+
+.container-principal > div { display: inline-block;
+	                         width:24%;
+                             
+	                         box-sizing: border-box;
+	               	         padding-top:35%;                             
+                          
+                             background-position: center;
+	                         background-size: cover;
+	                         background-repeat: no-repeat;
+	                         }
+
+
+.tsunade1{ background-image:url('../img/tsunade/1.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade2{ background-image:url('../img/tsunade/2.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade3{ background-image:url('../img/tsunade/3.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade4{ background-image:url('../img/tsunade/4.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade5{ background-image:url('../img/tsunade/5.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade6{ background-image:url('../img/tsunade/6.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade7{ background-image:url('../img/tsunade/7.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+.tsunade8{ background-image:url('../img/tsunade/8.jpg');
+	     width: 100%;
+	     height: 100%; }
+
+
+@media screen and (max-width: 990px){ .container-principal > div { width:48%; padding-top: 98%;} }
+@media screen and (max-width: 700px){ .container-principal > div { width:98%; padding-top: 98vh; margin-bottom:5px; } }

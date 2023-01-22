@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+
+@font-face {
+	font-family: "caveat";
+	src:url('../font/Caveat-Bold.ttf');
+}
+
+html,body{
+    font-family: caveat;
+	width: 100%;
+	background-color: rgb(236,200,138);
+}
+
+
+
+
+.cabeçalho {
+
+	width: 100%;
+	padding:1%;
+	background-color: rgb(195,120,45);
+	text-align: center;
+	color: red;
+	font-size: 2.3vw;
+	text-shadow: 1px 1px black;
+}
+
+.container-principal { width: 100%;
+	                   
+	                   margin-top:10px;
+	                   text-align: center;
+	                   
+	                   }
+
+
+
+.container-principal > div { display: inline-block;
+	                         width:24%;
+                             
+	                         box-sizing: border-box;
+	               	         padding-top:35%;                             
+                             border-radius: 8px;
+                             background-position: center;
+	                         background-size: cover;
+	                         background-repeat: no-repeat;
+	                         cursor: pointer;}
+
+
+.sakura{ background-image:url('../img/sakura/0.jpg') ; transition: 0.2s;
+	     }
+.sakura:hover{ background-image:url('../img/sakura/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+
+.hinata{ background-image:url('../img/hinata/0.jpg'); transition: 0.2s }
+.hinata:hover{ background-image:url('../img/hinata/0.1.jpg'); border: 3px solid rgb(105, 8, 31);}
+
+
+
+.tsunade{ background-image:url('../img/tsunade/0.jpg'); transition: 0.2s }
+.tsunade:hover{ background-image:url('../img/tsunade/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+
+.tenten{ background-image:url('../img/tenten/0.jpg'); transition: 0.2s }
+.tenten:hover{ background-image:url('../img/tenten/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+.temari{ background-image:url('../img/temari/0.jpg'); transition: 0.2s }
+.temari:hover{ background-image:url('../img/temari/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+
+.karin{ background-image:url('../img/karin/0.jpg'); transition: 0.2s }
+.karin:hover{ background-image:url('../img/karin/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+.ino{ background-image:url('../img/ino/0.jpg'); transition: 0.2s }
+.ino:hover{ background-image:url('../img/ino/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+.konan{ background-image:url('../img/konan/0.jpg'); transition: 0.2s }
+.konan:hover{ background-image:url('../img/konan/0.1.jpg');border: 3px solid rgb(105, 8, 31);}
+
+
+
+@media screen and (max-width: 800px){ .container-principal > div { width:48%; padding-top: 78vw;   } }
+@media screen and (max-width: 600px){ .container-principal > div { width:98%; padding-top: 98vh;   } }

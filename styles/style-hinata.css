@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "caveat";
+	src:url('../font/Caveat-Bold.ttf');
+}
+
+html,body{
+	font-family: caveat;
+	width: 100%;
+	background-color:#35165c;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cabeçalho {
+	width: 100%;
+	padding:1%;
+	font-size: 2.3vw;
+	background-color: rgba(73, 19, 138, 0.3);
+	text-align: center;
+	color: #bf8dfc;
+	text-shadow: 1px 1px #916dbd;
+}
+
+.container-principal { width: 100%;
+
+	                   
+	                   
+	                   padding: 20px 0;
+	                   text-align: center;
+	                   background-color: rgba(229, 107, 144, 0.3);
+	                   border: 2px dashed #200345;
+	                   border-radius: 6px;
+	                   }
+
+
+
+.container-principal > div { display: inline-block;
+	                         width:24%;
+                             
+	                         box-sizing: border-box;
+	               	         padding-top:35%;                             
+                             border-radius: 8px;
+                             background-position: center;
+	                         background-size: cover;
+	                         background-repeat: no-repeat;
+	                         }
+
+
+.hinata1{ background-image:url('../img/hinata/1.jpg');
+	     }
+
+.hinata2{ background-image:url('../img/hinata/2.jpg');
+	      }
+
+.hinata3{ background-image:url('../img/hinata/3.jpg');
+	      }
+
+.hinata4{ background-image:url('../img/hinata/4.jpg');
+	      }
+
+.hinata5{ background-image:url('../img/hinata/5.jpg');
+	     }
+
+.hinata6{ background-image:url('../img/hinata/6.jpg');
+	      }
+
+.hinata7{ background-image:url('../img/hinata/7.jpg');
+	      }
+
+.hinata8{ background-image:url('../img/hinata/8.jpg');
+	      }
+
+
+
+@media screen and (max-width: 990px){ .container-principal > div { width:48%; padding-top: 98%;} }
+@media screen and (max-width: 700px){ .container-principal > div { width:98%; padding-top: 98vh; margin-bottom:5px; } }
